@@ -1,0 +1,5 @@
+*.pkl
+*.nc
+*.jpg
+./KEY_PAPERFIGURES/*
+./NC_HINDCAST/*
