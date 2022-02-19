@@ -4,7 +4,7 @@ import numpy as np
 import arrow
 
 def import_bathy(filepath):
-    filepath = '/data/tjarniko/MEOPAR/NEMO-forcing/grid/mesh_mask_SalishSea2.nc'
+    #filepath = '/data/tjarniko/MEOPAR/NEMO-forcing/grid/mesh_mask_SalishSea2.nc'
     grid = xr.open_dataset(filepath)
     return grid
 
